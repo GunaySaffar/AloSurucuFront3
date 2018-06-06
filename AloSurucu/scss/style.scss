@@ -1,0 +1,1466 @@
+
+a*{
+	text-decoration: none ;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+@font-face{
+	font-family: Montserrat;
+	src:url(../fotns/montserrat/Montserrat-Regular.otf);
+
+}
+//HeaderSection Start
+#HeaderSection{
+
+	.AloHead{
+			background:#3b3d40;
+			.img-keeper{
+				display: flex;
+				justify-content:center;
+				align-items:center;
+					.img-holder{
+					display: flex;
+					align-items:center;
+				}
+			}
+			.nav-btn{
+				font-size: 30px;
+				color: lightgray;
+				text-align: center;
+				cursor: pointer;
+				//display: none;
+			}
+			.menu-trigger{
+				display: none;
+			}
+		.AloNums{
+			margin: 18px 0;
+			display: flex;	
+			.phone-icon-keep{
+
+			}
+			.num-keeper{
+				padding:0;
+				margin-bottom: 0;
+				li{
+					display: inline-block;
+					padding: 0 8px;
+					span{
+						a{
+							color: #757779;
+							font-size: 12px;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+
+		}
+				.social-network{
+			margin: 18px 0;
+			margin-left: 10px;
+			ul{
+				padding: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					display: inline-block;
+					padding: 0 18px;
+					span{
+						a{
+
+						}
+					}
+				}
+			}
+		}
+		.AloNavigation{
+			margin: 18px 0;
+			.navigation{
+
+				padding:0;
+				margin-bottom: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:8px;
+				}
+				li{
+					padding: 0 8px;
+					display: inline-block;
+					span{
+						a{
+							color: white;
+							font-weight: bold;
+							font-size: 12px;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+//HeaderSection End
+
+//HeaderInfo Section start
+#HeaderInfo{
+	.header-desc{
+		position: absolute;
+		z-index: 200;
+		padding: 185px 0;
+		width: 100%;
+		text-align: center;
+		h1{
+			font-weight: bold;
+			color: white;
+			font-family: Montserrat;
+			font-size: 52px;
+		}
+		p{
+			color: white;
+			font-family: Montserrat;
+			font-size: 20px;
+		}
+	}
+	  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+}
+//HeaderInfo Section End
+
+//ServicesSection Start
+#ServicesSection{
+	.online-order{
+			display: flex;
+			background-color: #ffce00;
+			padding: 10px;
+			border-radius: 0 20px 20px 0;
+			margin-bottom: -60px;
+	        margin-top: 10px;
+	        position: fixed;
+	        z-index: 1000;
+	        top: 10%;
+	        p{
+				transform:rotate(-90deg); 
+				font-size: 14px;
+				color: #3b3d40;
+				font-family: Montserrat;
+			}
+	}
+	.services-desc{
+		h1{
+			font-size: 60px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.services-keeper{
+		display: flex;
+		justify-content:center;
+		padding: 60px 0;
+		.desc-img-keep{
+			img{
+				width: 100%;
+			}
+		}
+		.serv-desc-keep{
+			h2{
+				font-size: 36px;
+				color: #3b3d40;
+				font-weight: bold;
+				font-family: Montserrat;
+			}
+			p{
+				font-size: 25px;
+				color: #656b6f;
+				font-family: Montserrat;
+			}
+		}
+	}
+}
+//Services Section End
+
+//About Section Start
+#AboutSection{
+	margin: 100px 0;
+	.about-desc{
+		background-color: #3b3d40;
+		position: relative;
+		.col-md-8{
+			margin-left: 150px;
+			h1{
+			font-size: 50px;
+			color: white;
+			font-family: Montserrat;
+			padding: 45px 0;
+		}
+		p{
+			padding-bottom: 45px ;
+			font-size: 15px;
+			color: white;
+			font-family:Montserrat;
+		}
+		}
+	}
+
+		.about-img-keeper{
+			    position: absolute;
+			    z-index: 9000;
+			    top: -69px;
+			    right: 0;
+			img{
+				width: 100%;
+			}
+		}
+	
+}
+//About Section End
+
+//Features Section Start
+#FeaturesSection{
+	background-color: #f9f9f9;
+	padding: 50px 0;
+	.features-desc{
+		h1{
+			font-size: 60px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.feature-keep{
+		text-align: center;
+		h4{
+			font-size: 14px;
+			font-weight: bold;
+			font-family: Montserrat;
+			color: #3b3d40;
+			padding: 20px 0;
+		}
+		p{
+			font-size: 12px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Features Section End
+
+//Vacancies Section Start
+#VacanciesSection{
+	.vacancy-desc{
+		h1{
+			font-size: 60px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.vac-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 40px;
+		border-radius: 10px;
+		background-color: white;
+		color: #ffc100;
+		cursor: pointer;
+		font-weight: bold;
+		margin: 10px;
+	}
+	.vac-btn:hover{
+		color: white;
+		background-color: #ffc100;
+		transition:0.5s ease;
+	}
+	.active-vacan{
+		color: white;
+		background-color: #ffc100;
+	}
+	.vacancy-desc-keeper{
+		border: 2px solid #ffc100;
+		border-radius: 10px;
+		margin-bottom: 70px;
+
+		.vac-header-keep{
+			//padding: 20px 0;
+			background-color: #ffc100;
+			border-radius: 0 0 10px 10px;
+			h5{
+				font-size: 16px;
+				font-weight: bold;
+				font-family: Montserrat;
+				color: #3b3d40;
+				padding: 30px;
+			}
+		}
+		p{
+			padding: 30px;
+			font-size: 14px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Vacancies Section End
+
+//Contact Section Start
+#ContactSection{
+	background-color: #f9f9f9;
+	padding-bottom: 80px;
+	.contact-desc{
+		h1{
+			font-size: 60px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+		p{
+			font-size: 14px;
+			font-family:Montserrat;
+			color: #656b6f;	
+		}
+	}
+	.contact-input{
+		width: 100%;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 10px;
+		border: 1px solid #ffc100;
+		font-weight: bold;
+		color: #656b6f;
+		font-family: Montserrat;
+
+	}
+	.contact-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 43px;
+		border-radius: 10px;
+		cursor: pointer;
+		font-weight: bold;
+		color: white;
+		background-color: #ffc100;
+		float: right;
+		margin-right: -10px;
+		margin-top: 10px;
+	}
+
+	.social-network{
+			margin: 18px 0;
+			ul{
+				padding: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					display: inline-block;
+					padding: 0 18px;
+					span{
+						a{
+
+						}
+					}
+				}
+			}
+		}
+}
+//Contact Section End
+
+//Footer Section Start
+#FooterSection{
+	background-color: #3b3d40;
+	.AloNavigation{
+			margin: 18px 0;
+			.navigation{
+
+				padding:0;
+				margin-bottom: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					padding: 0 18px;
+					display: inline-block;
+					span{
+						a{
+							color: white;
+							font-weight: bold;
+							font-size: 12px;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+		}
+}
+//Footer Section End
+
+
+
+
+
+
+
+
+
+
+
+//Responsibility
+//ipad
+@media screen and (min-width:767px) and (max-width:1039px){
+#HeaderSection{
+	.AloHead{
+		.nav-btn{
+			display: flex;
+			justify-content:flex-end;
+			.menu-trigger{
+				border-radius: 10px;
+				display: block;
+				font-size: 50px;
+			}
+		}
+
+			.num-row{
+				justify-content:center;
+				.AloNums{
+					text-align: center;
+					ul{
+						li{
+							display: block;
+							span{
+								a{
+									font-size: 35px !important;
+								}
+							}
+						}
+					}
+				}
+			}
+			.nav-row{
+				justify-content:center;
+				
+				.navigation{
+					display: none;
+					li{
+						//display: block !important;
+						padding: 0 3px;
+						display: block;
+					span{
+						a{
+							color: #757779;
+							font-size: 35px;
+							font-family: Montserrat;
+						}
+					}
+					}
+					li:first-child{
+					padding-left: 3px;
+					padding-right:3px;
+					
+					}
+				}
+			}
+	}
+
+}
+//HeaderInfo Section start
+#HeaderInfo{
+	.header-desc{
+		padding: 85px 0;
+		width: 100%;
+		text-align: center;
+		h1{
+			font-weight: bold;
+			color: white;
+			font-family: Montserrat;
+			font-size: 45px;
+		}
+		p{
+			color: white;
+			font-family:Montserrat;
+			font-size: 30px;
+		}
+	}
+}
+//HeaderInfo Section End
+
+//ServicesSection Start
+#ServicesSection{
+	.online-order{
+			display: flex;
+			background-color: #ffce00;
+			padding: 10px;
+			border-radius: 0 20px 20px 0;
+			margin-bottom: -60px;
+	        margin-top: 10px;
+	        p{
+				transform:rotate(-90deg); 
+				font-size: 14px;
+				color: #3b3d40;
+				font-family: Montserrat;
+			}
+	}
+	.services-desc{
+		h1{
+			font-size: 2.5rem;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.services-keeper{
+		display: flex;
+		justify-content:center;
+		padding: 60px 0;
+		.img-display{
+			display: none;
+		}
+		.serv-desc-keep{
+			h2{
+				font-size: 32px;
+				color: #3b3d40;
+				font-weight: bold;
+				font-family: Montserrat;
+			}
+			p{
+				font-size: 28px;
+				color: #656b6f;
+				font-family:Montserrat;
+			}
+		}
+	}
+}
+//Services Section End
+
+//About Section Start
+#AboutSection{
+	margin: 100px 0;
+	.about-desc{
+		background-color: #3b3d40;
+		position: relative;
+		display: flex;
+		justify-content:center;
+		.col-md-8{
+			text-align: center;
+			margin-left: 0px;
+		h1{
+			font-size: 2.5rem;
+			color: white;
+			font-family: Montserrat;
+			padding: 25px 0;
+		}
+		p{
+			padding-bottom: 45px ;
+			font-size: 26px;
+			color: white;
+			font-family: Montserrat;
+		}
+		}
+	}
+
+		.about-img-keeper{
+			display: none;
+			    position: absolute;
+			    z-index: 9000;
+			    top: -69px;
+			    right: 0;
+			img{
+				width: 100%;
+			}
+		}
+	
+}
+//About Section End
+
+//Features Section Start
+#FeaturesSection{
+	background-color: #f9f9f9;
+	padding: 0px 0;
+	.features-desc{
+		h1{
+			font-size: 2.5rem;
+			color: #3b3d40;
+			padding: 10px 0;
+			font-family:Montserrat;
+		}
+	}
+	.feature-keep{
+		text-align: center;
+		h4{
+			font-size: 27px;
+			font-weight: bold;
+			font-family:Montserrat;
+			color: #3b3d40;
+			padding: 0px 0;
+		}
+		p{
+			font-size: 30px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Features Section End
+
+#VacanciesSection{
+	.cnt-fluid{
+		max-width: 100%;
+	}
+	.vacancy-desc{
+		h1{
+			font-size: 2.5rem;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.vac-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 40px;
+		border-radius: 10px;
+		background-color: white;
+		color: #ffc100;
+		cursor: pointer;
+		font-weight: bold;
+		margin: 10px;
+		font-size: 20px;
+	}
+	.vac-btn:hover{
+		color: white;
+		background-color: #ffc100;
+		transition:0.5s ease;
+	}
+	.active-vacan{
+		color: white;
+		background-color: #ffc100;
+	}
+	.vacancy-desc-keeper{
+		border: 2px solid #ffc100;
+		border-radius: 10px;
+		margin-bottom: 70px;
+
+		.vac-header-keep{
+			//padding: 20px 0;
+			background-color: #ffc100;
+			border-radius: 0 0 10px 10px;
+			h5{
+				font-size: 16px;
+				font-weight: bold;
+				font-family: Montserrat;
+				color: #3b3d40;
+				padding: 30px;
+			}
+		}
+		p{
+			padding: 30px;
+			font-size: 27px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Vacancies Section End
+
+#ContactSection{
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+	.cnt-fluid{
+		max-width: 100%;
+	}
+	.contact-desc{
+		h1{
+			font-size: 2.5rem;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+		p{
+			font-size: 30px;
+			font-family: Montserrat;
+			color: #656b6f;	
+		}
+	}
+	.contact-input{
+		width: 100%;
+		padding: 30px;
+		margin:10px 0px;
+		border-radius: 10px;
+		border: 1px solid #ffc100;
+		font-weight: bold;
+		color: #656b6f;
+		font-family: Montserrat;
+		font-size: 25px;
+	}
+	.contact-btn{
+		width: 244px;
+	    border: 2px solid #ffc100;
+	    height: 61px;
+	    border-radius: 10px;
+	    cursor: pointer;
+	    font-weight: bold;
+	    color: white;
+	    background-color: #ffc100;
+	    float: right;
+	    margin-right: 0px;
+	    margin-top: 10px;
+	    font-size: 30px;
+	}
+
+	.social-network{
+			margin: 18px 0;
+			ul{
+				padding: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					display: inline-block;
+					padding: 0 18px;
+					span{
+						a{
+							    font-size: 33px;
+							    color: #656b6f;
+						}
+					}
+				}
+			}
+		}
+}
+//Contact Section End
+
+//Footer Section Start
+#FooterSection{
+	background-color: #3b3d40;
+	.AloNavigation{
+			margin: 18px 0;
+			.navigation{
+
+				padding:0;
+				margin-bottom: 0;
+				li:first-child{
+					padding-left: 18px;
+					padding-right:18px;
+				}
+				li{
+					padding: 0 18px;
+					display: block;
+					span{
+						a{
+							color: white;
+							font-weight: bold;
+							font-size: 30px;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+		}
+}
+//Footer Section End
+}
+
+
+
+
+@media screen and (min-width:479px) and (max-width:766px){
+#HeaderSection{
+	.AloHead{
+		.nav-btn{
+			display: flex;
+			justify-content:center;
+			.menu-trigger{
+				border-radius: 10px;
+				display: block;
+			}
+		}
+
+			.num-row{
+				justify-content:center;
+				.AloNums{
+					text-align: center;
+					ul{
+						li{
+							display: block;
+							span{
+								a{
+									font-size: 35px !important;
+								}
+							}
+						}
+					}
+				}
+			}
+			.nav-row{
+				justify-content:center;
+				
+				.navigation{
+					display: none;
+					li{
+						//display: block !important;
+						padding: 0 3px;
+						display: block;
+					span{
+						a{
+							color: #757779;
+							font-size: 35px;
+							font-family: Montserrat;
+						}
+					}
+					}
+					li:first-child{
+					padding-left: 3px;
+					padding-right:3px;
+					
+					}
+				}
+			}
+	}
+
+}
+//HeaderSection End
+
+//HeaderInfo Section start
+#HeaderInfo{
+	.header-desc{
+		padding: 38px 0;
+		width: 100%;
+		text-align: center;
+		h1{
+			font-weight: bold;
+			color: white;
+			font-family:Montserrat;
+			font-size: 40px;
+		}
+		p{
+			color: white;
+			font-family: Montserrat;
+			font-size: 20px;
+		}
+	}
+}
+//HeaderInfo Section End
+//ServicesSection Start
+#ServicesSection{
+	.online-order{
+			display: flex;
+			background-color: #ffce00;
+			padding: 10px;
+			border-radius: 0 20px 20px 0;
+			margin-bottom: -60px;
+	        margin-top: 10px;
+	        p{
+				transform:rotate(-90deg); 
+				font-size: 14px;
+				color: #3b3d40;
+				font-family: Montserrat;
+			}
+	}
+	.services-desc{
+		h1{
+			font-size: 40px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.services-keeper{
+		display: flex;
+		justify-content:center;
+		padding: 60px 0;
+		.img-display{
+			display: none;
+		}
+		.serv-desc-keep{
+			h2{
+				font-size: 30px;
+				color: #3b3d40;
+				font-weight: bold;
+				font-family: Montserrat;
+			}
+			p{
+				font-size: 13px;
+				color: #656b6f;
+				font-family:Montserrat;
+			}
+		}
+	}
+}
+//Services Section End
+
+//About Section Start
+#AboutSection{
+	margin: 100px 0;
+	.about-desc{
+		background-color: #3b3d40;
+		position: relative;
+		.col-md-8{
+
+			margin-left: 0px;
+		h1{
+			font-size:40px;
+			color: white;
+			font-family: Montserrat;
+			padding: 25px 0;
+		}
+		p{
+			padding-bottom: 45px ;
+			font-size: 12px;
+			color: white;
+			font-family:Montserrat;
+		}
+		}
+	}
+
+		.about-img-keeper{
+			display: none;
+			    position: absolute;
+			    z-index: 9000;
+			    top: -69px;
+			    right: 0;
+			img{
+				width: 100%;
+			}
+		}	
+}
+//About Section End
+
+//Features Section Start
+#FeaturesSection{
+	background-color: #f9f9f9;
+	padding: 0px 0;
+	.features-desc{
+		h1{
+			font-size: 30px;
+			color: #3b3d40;
+			padding: 12px 0;
+			font-family: Montserrat;
+		}
+	}
+	.feature-keep{
+		text-align: center;
+		h4{
+			font-size: 20px;
+			font-weight: bold;
+			font-family: Montserrat;
+			color: #3b3d40;
+			padding: 0px 0;
+		}
+		p{
+			font-size: 14px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Features Section End
+
+//Vacancies Section Start
+#VacanciesSection{
+	.vacancy-desc{
+		h1{
+			font-size: 30px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.vac-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 40px;
+		border-radius: 10px;
+		background-color: white;
+		color: #ffc100;
+		cursor: pointer;
+		font-weight: bold;
+		margin: 10px;
+	}
+	.vac-btn:hover{
+		color: white;
+		background-color: #ffc100;
+		transition:0.5s ease;
+	}
+	.active-vacan{
+		color: white;
+		background-color: #ffc100;
+	}
+	.vacancy-desc-keeper{
+		border: 2px solid #ffc100;
+		border-radius: 10px;
+		margin-bottom: 70px;
+
+		.vac-header-keep{
+			//padding: 20px 0;
+			background-color: #ffc100;
+			border-radius: 0 0 10px 10px;
+			h5{
+				font-size: 16px;
+				font-weight: bold;
+				font-family: Montserrat;
+				color: #3b3d40;
+				padding: 30px;
+			}
+		}
+		p{
+			padding: 30px;
+			font-size: 14px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Vacancies Section End
+
+//Contact Section Start
+#ContactSection{
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+	.contact-desc{
+		h1{
+			font-size: 30px !important;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+		p{
+			font-size: 14px;
+			font-family: Montserrat;
+			color: #656b6f;	
+		}
+	}
+	.contact-input{
+		width: 100%;
+		padding: 10px;
+		margin:10px 0px;
+		border-radius: 10px;
+		border: 1px solid #ffc100;
+		font-weight: bold;
+		color: #656b6f;
+		font-family: Montserrat;
+
+	}
+	.contact-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 43px;
+		border-radius: 10px;
+		cursor: pointer;
+		font-weight: bold;
+		color: white;
+		background-color: #ffc100;
+		float: right;
+		margin-right: 0px;
+		margin-top: 10px;
+	}
+
+	.social-network{
+			margin: 18px 0;
+			ul{
+				padding: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					display: inline-block;
+					padding: 0 18px;
+					span{
+						a{
+
+						}
+					}
+				}
+			}
+		}
+}
+//Contact Section End
+
+//Footer Section Start
+#FooterSection{
+	background-color: #3b3d40;
+	.AloNavigation{
+			margin: 18px 0;
+			.navigation{
+
+				padding:0;
+				margin-bottom: 0;
+				li:first-child{
+					padding-left: 3px;
+					padding-right:3px;
+				}
+				li{
+					padding: 0 3px;
+					display: inline-block;
+					span{
+						a{
+							color: white;
+							font-weight: bold;
+							font-size: 12px;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+		}
+}
+//Footer Section End
+
+}
+
+
+
+
+@media screen and (max-width:479px){
+#HeaderSection{
+	.AloHead{
+		.nav-btn{
+			display: flex;
+			justify-content:center;
+			.menu-trigger{
+				border-radius: 10px;
+				display: block;
+			}
+		}
+		.row{
+			.num-row{
+				justify-content:center;
+				.AloNums{
+					text-align: center;
+					.num-keeper{
+						li{
+							display: block;
+						}
+					}
+				}
+			}
+			.nav-row{
+				justify-content:center;
+				
+				.navigation{
+					display: none;
+					li{
+						display: block !important;
+					}
+					li:first-child{
+					padding-left: 18px;
+					padding-right:18px;
+					
+				}
+				}
+			}
+		}
+		.social-network{
+			text-align: center;
+		}
+	}
+}
+
+//HeaderInfo Section start
+#HeaderInfo{
+	.header-desc{
+		padding: 30px 0;
+		width: 100%;
+		text-align: center;
+		h1{
+			font-weight: bold;
+			color: white;
+			font-family: Montserrat;
+			font-size: 14px;
+		}
+		p{
+			color: white;
+			font-family: Montserrat;
+			font-size: 8px;
+		}
+	}
+}
+
+//HeaderInfo Section End
+//ServicesSection Start
+#ServicesSection{
+	.online-order{
+			display: flex;
+			background-color: #ffce00;
+			padding: 10px;
+			border-radius: 0 20px 20px 0;
+			margin-bottom: -60px;
+	        margin-top: 10px;
+	        p{
+				transform:rotate(-90deg); 
+				font-size: 14px;
+				color: #3b3d40;
+				font-family: Montserrat;
+			}
+	}
+	.services-desc{
+		h1{
+			font-size: 40px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family: Montserrat;
+		}
+	}
+	.services-keeper{
+		display: flex;
+		justify-content:center;
+		padding: 60px 0;
+		.serv-desc-keep{
+			h2{
+				font-size: 24px;
+				color: #3b3d40;
+				font-weight: bold;
+				font-family: Montserrat;
+			}
+			p{
+				font-size: 10px;
+				color: #656b6f;
+				font-family: Montserrat;
+			}
+		}
+	}
+}
+//Services Section End
+
+//About Section Start
+#AboutSection{
+	margin: 100px 0;
+	.about-desc{
+		background-color: #3b3d40;
+		position: relative;
+		.col-md-5{
+
+			margin-left: 0px;
+		h1{
+			font-size:28px;
+			color: white;
+			font-family: Montserrat;
+			padding: 25px 0;
+		}
+		p{
+			padding-bottom: 45px ;
+			font-size: 12px;
+			color: white;
+			font-family: Montserrat;
+		}
+		}
+	}
+
+		.about-img-keeper{
+			display: none;
+			    position: absolute;
+			    z-index: 9000;
+			    top: -69px;
+			    right: 0;
+			img{
+				width: 100%;
+			}
+		}
+	
+}
+//About Section End
+//Features Section Start
+#FeaturesSection{
+	background-color: #f9f9f9;
+	padding: 0px 0;
+	.features-desc{
+		h1{
+			font-size: 28px;
+			color: #3b3d40;
+			padding: 10px 0;
+			font-family:Montserrat;
+		}
+	}
+	.feature-keep{
+		text-align: center;
+		h4{
+			font-size: 10px;
+			font-weight: bold;
+			font-family:Montserrat;
+			color: #3b3d40;
+			padding: 0px 0;
+		}
+		p{
+			font-size: 8px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Features Section End
+
+//Vacancies Section Start
+#VacanciesSection{
+	.vacancy-desc{
+		h1{
+			font-size: 28px;
+			color: #3b3d40;
+			padding: 10px 0;
+			font-family:Montserrat;
+		}
+	}
+	.vac-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 40px;
+		border-radius: 10px;
+		background-color: white;
+		color: #ffc100;
+		cursor: pointer;
+		font-weight: bold;
+		margin: 10px;
+	}
+	.vac-btn:hover{
+		color: white;
+		background-color: #ffc100;
+		transition:0.5s ease;
+	}
+	.active-vacan{
+		color: white;
+		background-color: #ffc100;
+	}
+	.vacancy-desc-keeper{
+		border: 2px solid #ffc100;
+		border-radius: 10px;
+		margin-bottom: 70px;
+
+		.vac-header-keep{
+			//padding: 20px 0;
+			background-color: #ffc100;
+			border-radius: 0 0 10px 10px;
+			h5{
+				font-size: 16px;
+				font-weight: bold;
+				font-family: Montserrat;
+				color: #3b3d40;
+				padding: 30px;
+			}
+		}
+		p{
+			padding: 30px;
+			font-size: 10px;
+			font-family: Montserrat;
+			color: #656b6f;
+			padding-bottom: 30px;
+		}
+	}
+}
+//Vacancies Section End
+
+//Contact Section Start
+#ContactSection{
+	background-color: #f9f9f9;
+	padding-bottom: 80px;
+	.contact-desc{
+		h1{
+			font-size: 28px;
+			color: #3b3d40;
+			padding: 50px 0;
+			font-family:Montserrat;
+		}
+		p{
+			font-size: 10px;
+			font-family: Montserrat;
+			color: #656b6f;	
+		}
+	}
+	.contact-input{
+		width: 100%;
+		padding: 10px;
+		margin:10px 0px;
+		border-radius: 10px;
+		border: 1px solid #ffc100;
+		font-weight: bold;
+		color: #656b6f;
+		font-family: Montserrat;
+	}
+	.contact-btn{
+		width: 176px;
+		border: 2px solid #ffc100;
+		height: 43px;
+		border-radius: 10px;
+		cursor: pointer;
+		font-weight: bold;
+		color: white;
+		background-color: #ffc100;
+		float: right;
+		margin-right: 0px;
+		margin-top: 10px;
+	}
+
+	.social-network{
+			margin: 18px 0;
+			ul{
+				padding: 0;
+				li:first-child{
+					padding-left: 0;
+					padding-right:18px;
+				}
+				li{
+					display: inline-block;
+					padding: 0 18px;
+					span{
+						a{
+
+						}
+					}
+				}
+			}
+		}
+}
+//Contact Section End
+
+//Footer Section Start
+#FooterSection{
+	background-color: #3b3d40;
+	.AloNavigation{
+			margin: 18px 0;
+			.navigation{
+
+				padding:0;
+				margin-bottom: 0;
+				li:first-child{
+					padding-left: 18px;
+					padding-right:0px;
+				}
+				li{
+					padding: 0 18px;
+					display: block;
+					span{
+						a{
+							color: white;
+							font-weight: bold;
+							font-size: 12px;
+							text-transform: uppercase;
+							font-family: Montserrat;
+						}
+					}
+				}
+			}
+		}
+}
+//Footer Section End
+}
